@@ -33,5 +33,3 @@ jobs:
         name: MyApplication
         path: MyApplication/**
         if-no-files-found: error
-    - name: Check if file exists
-      run: ls ~MyApplication
