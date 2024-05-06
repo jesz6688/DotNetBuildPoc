@@ -34,4 +34,4 @@ jobs:
         path: MyApplication/**
         if-no-files-found: error
     - name: Check if file exists
-      run: ls /usr/share/dotnet
+      run: ls ~MyApplication
